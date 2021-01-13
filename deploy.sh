@@ -12,4 +12,4 @@ git fetch
 get reset --hard origin/master
 
 echo "Running example script"
-example.sh
+./example.sh

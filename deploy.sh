@@ -9,7 +9,7 @@ fi
 echo "Updating scripts"
 cd git-deploy-example
 git fetch
-get reset --hard origin/master
+git reset --hard origin/master
 
 echo "Running example script"
 ./example.sh
